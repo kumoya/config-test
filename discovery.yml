@@ -5,6 +5,8 @@ spring:
     config:
       name: discovery
       uri: http://localhost:9002
+
+
 eureka:
   instance:
     hostname: localhost
