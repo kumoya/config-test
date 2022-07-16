@@ -8,7 +8,7 @@ spring:
   application:
     name: organization
   datasource:
-    url: jdbc:mysql://192.168.1.100:3307/mydb
+    url: jdbc:mysql://192.168.0.100:3307/mydb
     username: root
     password: mypassword
   jpa:
