@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       name: discovery
-      uri: http://localhost:9002
+      uri: http://localhost:9001
 
 
 eureka:
