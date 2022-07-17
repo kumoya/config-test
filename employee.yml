@@ -5,15 +5,16 @@ eureka:
     service-url:
       defaultZone: http://localhost:9001/eureka
 spring:
+  mvc:
+    pathmatch:
+        matching-strategy: ant_path_matcher 
   application:
     name: employee
   datasource:
     url: jdbc:mysql://192.168.0.101:3307/mydb
     username: root
     password: mypassword
-  mvc:
-    pathmatch:
-        matching-strategy: ant_path_matcher    
+     
   jpa:
     hibernate:
       ddl-auto: update
