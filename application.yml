@@ -7,11 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kumoya/config-test/application-config
+          uri: https://github.com/kumoya/config-test
+          basedir: application-config
+          default-label: main
           username: kumoya
           password: db99b,k22to1981
-      discovery:
-        enabled: true
+
 eureka:
   client:
     service-url:
