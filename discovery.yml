@@ -1,12 +1,8 @@
 server:
   port: 9001
 spring:
-  cloud:
-    config:
-      name: discovery
-      uri: http://localhost:9001
-
-
+  application:
+    name: discovery  
 eureka:
   instance:
     hostname: localhost
