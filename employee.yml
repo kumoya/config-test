@@ -11,7 +11,7 @@ spring:
   application:
     name: employee
   datasource:
-    url: jdbc:mysql://192.168.0.101:3307/mydb
+    url: jdbc:mysql://192.168.1.101:3307/mydb
     username: root
     password: mypassword
      
